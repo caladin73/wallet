@@ -1,8 +1,8 @@
 #header{
-    background-color: lightblue;
+    background-color: white;
     //width:50%;
     //height:100%;
-    text-align: center;
+
 }
 #sidebar-left{
     float:left;
@@ -10,9 +10,10 @@
     background-color: red;
 }
 #main{
-    float:left;
-    width:70%;
+    width: 800px;
     background-color: lightgray;
+    margin: 0 auto;
+
 }
 #sidebar-right{
     float:left;
