@@ -47,14 +47,7 @@ html *
 }
 
 .column {
-    margin-left: auto;
     float: left;
-    width: 50%;
+    padding-left: 40px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
