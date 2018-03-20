@@ -15,7 +15,7 @@
 
 #footer{
     clear:both;
-    height: 150px;
+    height: 250px;
     width: 800px;
     text-align: left;
     margin-left: auto;
@@ -39,7 +39,12 @@ ul {
     list-style-type: none;
 }
 
-html *
+h1, h2, h3, h4, h5, h6 {
+    font-style: montserrat;
+    font-weight: bold;
+}
+
+html
 {
     font-size: 1em !important;
     color: #000 !important;
@@ -51,3 +56,9 @@ html *
     padding-left: 40px;
 }
 
+.line{
+    width: 800px;
+    height: 170px;
+    border-bottom: 1px solid gray;
+    position: absolute;
+}
